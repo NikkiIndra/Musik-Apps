@@ -1,0 +1,77 @@
+name: flutter_application_1
+description: "A new Flutter project."
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  google_nav_bar: ^5.0.7
+  loading_animation_widget: ^1.3.0
+  audioplayers: ^6.1.0
+  file_picker: ^8.1.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^5.0.0 # Pastikan di sini tidak ada komentar atau masalah lainnya
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "path/to/image.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+flutter:
+  # uses-material-design: true
+  assets:
+    - img/wp.jpg
+    - img/wp2.png
+    - img/logo.png
+    - img/logo2.png
+    - img/logo3.png
+    - img/fb.png
+    - img/github.png
+    - img/google.png
+    - img/person.png
+    - img/Maron_Six.png
+    - img/Park_Han_Su.png
+    - img/Goromeo.png
+    - img/zorru.png
+    - img/leonardo.png
+    - img/pocaco.png
+    - img/clasic.png
+    - img/hiphop.png
+    - img/pop.png
+    - img/rock.png
+    - recent_song_image/clasic.png
+    - recent_song_image/headphone.png
+    - recent_song_image/hiphop.png
+    - recent_song_image/rock.png
+    - music/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/to/font-from-package
